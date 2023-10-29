@@ -1,12 +1,22 @@
+import AboutSection from '@/components/AboutSection'
+import EmailSection from '@/components/EmailSection'
+import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
+import Navbar from '@/components/Navbar'
+import ProjectsSection from '@/components/ProjectsSection'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <main className='flex flex-col min-h-screen bg-[#121212]'>
-      <div className="container mx-auto py-4 px-12">
+      <Navbar />
+      <div className="container mx-auto py-4 px-12 mt-24">
         <HeroSection />
+        <AboutSection />
+        <ProjectsSection />
+        <EmailSection />
       </div>
+      <Footer />
     </main>
   )
 }
