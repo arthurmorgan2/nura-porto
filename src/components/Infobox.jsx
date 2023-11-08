@@ -20,7 +20,7 @@ const Infobox = () => {
 
     const divs = [
         { id: 1, content: '1000 Views', icon: faEye },
-        { id: 2, content: '4 Portofolio', icon: faGithub },
+        { id: 2, content: '3 Portofolio', icon: faGithub },
         { id: 3, content: '2342 MMR', icon: faGamepad },
     ];
 
